@@ -33,7 +33,7 @@ export const MovieDetailPage = () => {
     }
 
     fetchMovie();
-  }, []);
+  }, [params.id]);
 
   useTitle(movie.title);
 
