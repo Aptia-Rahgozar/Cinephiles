@@ -20,6 +20,7 @@ export const Header = ({ setSearchedMovie }) => {
 
   const activeClass =
     "block py-2 px-3 text-color02 bg-orange-500 rounded md:bg-transparent md:text-orange-600 md:p-0 md:dark:text-orange-600";
+
   const inActiveClass =
     "block py-2 px-3 text-gray-700 rounded hover:bg-gray-400 hover:text-orange-600 md:hover:bg-transparent md:hover:text-orange-600 md:p-0 md:dark:hover:text-orange-600 dark:text-white dark:hover:bg-gray-700 dark:hover:text-orange-600 md:dark:hover:bg-transparent dark:border-gray-700";
 
