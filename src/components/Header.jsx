@@ -34,7 +34,7 @@ export const Header = ({ setSearchedMovie }) => {
 
   return (
     <header>
-      <nav className="bg-color02Light border-b border-gray-200 dark:bg-color01">
+      <nav className="bg-white border-b border-gray-200 dark:bg-color01">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             to="/"
@@ -196,7 +196,7 @@ export const Header = ({ setSearchedMovie }) => {
                 />
               </form>
             </div>
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-color02Light md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-color02Light dark:bg-color01 md:dark:bg-color01 dark:border-gray-700">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-color01 md:dark:bg-color01 dark:border-gray-700">
               <li>
                 <NavLink
                   to="/"
